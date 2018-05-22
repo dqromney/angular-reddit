@@ -12,6 +12,7 @@ import { Article } from './article.model'; // <-- added
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent implements OnInit {
+  // Set the class attribute to have a "row", otherwise it just flows
   @HostBinding('attr.class') cssClass = 'row';
   @Input() article: Article;
 

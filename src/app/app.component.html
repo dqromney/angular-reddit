@@ -3,17 +3,21 @@
 
   <div class="field">
     <label for="title">Title:</label>
-    <input name="title" id="title" #newtitle>  <!-- changed -->
+    <input name="title" id="title" placeholder="Site name" #newtitle>  <!-- changed -->
+  </div>
+  <div class="field">
+    <label for="description">Description:</label>
+    <input name="description" id="description" placeholder="Some text describing the site" #newDescription>  <!-- changed -->
   </div>
   <div class="field">
     <label for="link">Link:</label>
-    <input name="link" id="link" #newlink> <!-- changed -->
+    <input name="link" id="link" placeholder="http://somesite.com" #newlink> <!-- changed -->
   </div>
 
   <!-- added this button -->
-  <button (click)="addArticle(newtitle, newlink)"
+  <button (click)="addArticle(newtitle, newDescription, newlink)"
           class="ui positive right floated button">
-    Submit link
+    Add link
   </button>
 
 </form>
