@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor() {
     this.articles = [
-      new Article('InComm Inc.', 'http://incomm.com', 'This is the place where I\'ve worked since November 29th 2018.', 4),
+      new Article('InComm Inc.', 'http://incomm.com', 'This is the place where I\'ve worked since November 29th 2017.', 4),
       new Article('Angular 5', 'http://angular.io', 'Great site for all that is Angular 5.', 3),
       new Article('Fullstack', 'http://fullstack.io', 'Great resource for Fullstack development.', 2),
       new Article('Angular Homepage', 'http://angular.io', 'Tried and true Angular homepage.', 1)
