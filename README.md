@@ -31,6 +31,8 @@ Then execute the `now` command in the `dist` directory. It will ask you for your
 this email via your email client. Once done, execute the `now` command again. You will given a URL where your 
 application is deployed to, i.e. `https://dist-mgqczlflbz.now.sh` I've tried this on my iPhone Chrome browser as well 
 as my desktop. Works great. 
+
+Here is my application deployed in [now](https://dist-mgqczlflbz.now.sh).
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
